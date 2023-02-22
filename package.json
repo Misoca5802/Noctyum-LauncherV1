@@ -1,12 +1,12 @@
 {
-  "name": "Uzurion-Launcher",
+  "name": "Noctyum-Launcher",
   "version": "2.0.7",
-  "productName": "Uzurion Launcher",
-  "description": "Launcher Mincraft custom (crack, premium)",
+  "productName": "Noctyum Launcher",
+  "description": "Launcher Officiel de Noctyum V1 Rebooted",
   "main": "src/index.html",
-  "author": "Luuxis",
+  "author": "Misoca",
   "window": {
-    "title": "Uzurion update",
+    "title": "Noctyum update",
     "width": 400,
     "height": 500,
     "frame": false,
@@ -18,7 +18,7 @@
     "node": "16.x.x"
   },
   "chromium-args": "--enable-logging --v=1 --disable-gpu --mixed-content",
-  "url": "http://146.59.227.140",
+  "url": "http://associated-cuisine.at.ply.gg:59589",
   "user": "",
   "webkit": {
     "plugin": true
@@ -34,7 +34,7 @@
   },
   "license": "CC0",
   "build": {
-    "appId": "Uzurion Launcher",
+    "appId": "Noctyum Launcher",
     "nwVersion": "0.60.0",
     "packed": true,
     "targets": [
@@ -62,7 +62,7 @@
     "overriddenProperties": {
       "main": "app/index.html",
       "window": {
-        "title": "Uzurion update",
+        "title": "Noctyum update",
         "width": 400,
         "height": 500,
         "frame": false,
@@ -73,16 +73,16 @@
     },
     "outputPattern": "${NAME}-${PLATFORM}",
     "win": {
-      "productName": "Uzurion Launcher",
-      "companyName": "Uzurion Launcher",
+      "productName": "Noctyum Launcher",
+      "companyName": "Noctyum Launcher",
       "copyright": "copyright",
       "icon": "src/assets/images/icons/icon.ico"
     },
     "mac": {
-      "displayName": "Uzurion-Launcher",
+      "displayName": "Noctyum-Launcher",
       "copyright": "copyright",
       "plistStrings": {
-        "CFBundleIdentifier": "Uzurion-Launcher"
+        "CFBundleIdentifier": "Noctyum-Launcher"
       }
     },
     "nsis": {
@@ -102,6 +102,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luuxis/Uzurion-Launcher.git"
+    "url": "git+https://github.com/Misoca5802/Noctyum-LauncherV1.git"
   }
 }
